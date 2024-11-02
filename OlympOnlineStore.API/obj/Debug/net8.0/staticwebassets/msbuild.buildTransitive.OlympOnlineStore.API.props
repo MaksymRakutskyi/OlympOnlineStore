@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\OlympOnlineStore.API.props" />
+</Project>

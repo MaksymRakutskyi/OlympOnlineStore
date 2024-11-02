@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Shared\bin\Debug\net8.0\OlympOnlineStore.Shared.deps.json
+C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Shared\bin\Debug\net8.0\OlympOnlineStore.Shared.dll
+C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Shared\bin\Debug\net8.0\OlympOnlineStore.Shared.pdb
+C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Shared\obj\Debug\net8.0\OlympOnlineStore.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Shared\obj\Debug\net8.0\OlympOnlineStore.Shared.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Shared\obj\Debug\net8.0\OlympOnlineStore.Shared.AssemblyInfo.cs
+C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Shared\obj\Debug\net8.0\OlympOnlineStore.Shared.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Shared\obj\Debug\net8.0\OlympOnlineStore.Shared.dll
+C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Shared\obj\Debug\net8.0\refint\OlympOnlineStore.Shared.dll
+C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Shared\obj\Debug\net8.0\OlympOnlineStore.Shared.pdb
+C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Shared\obj\Debug\net8.0\ref\OlympOnlineStore.Shared.dll

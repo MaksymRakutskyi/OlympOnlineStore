@@ -1,0 +1,363 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.models\\bookings\\enum\\bookingstatustype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|solutionrelative:olymponlinestore.models\\bookings\\enum\\bookingstatustype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.models\\bookings\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|solutionrelative:olymponlinestore.models\\bookings\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.models\\payments\\paymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|solutionrelative:olymponlinestore.models\\payments\\paymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.models\\users\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|solutionrelative:olymponlinestore.models\\users\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.models\\cars\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|solutionrelative:olymponlinestore.models\\cars\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.models\\payments\\enum\\paymentstatustype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|solutionrelative:olymponlinestore.models\\payments\\enum\\paymentstatustype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.models\\payments\\enum\\paymentmethodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|solutionrelative:olymponlinestore.models\\payments\\enum\\paymentmethodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.models\\cars\\enum\\transmissiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|solutionrelative:olymponlinestore.models\\cars\\enum\\transmissiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E000D30-18FF-4FAA-BFC0-36D11BDB367C}|OlympOnlineStore.API\\OlympOnlineStore.API.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E000D30-18FF-4FAA-BFC0-36D11BDB367C}|OlympOnlineStore.API\\OlympOnlineStore.API.csproj|solutionrelative:olymponlinestore.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E000D30-18FF-4FAA-BFC0-36D11BDB367C}|OlympOnlineStore.API\\OlympOnlineStore.API.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.api\\olymponlinestore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9E000D30-18FF-4FAA-BFC0-36D11BDB367C}|OlympOnlineStore.API\\OlympOnlineStore.API.csproj|solutionrelative:olymponlinestore.api\\olymponlinestore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.models\\users\\enum\\userroletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}|OlympOnlineStore.Models\\OlympOnlineStore.Models.csproj|solutionrelative:olymponlinestore.models\\users\\enum\\userroletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E000D30-18FF-4FAA-BFC0-36D11BDB367C}|OlympOnlineStore.API\\OlympOnlineStore.API.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E000D30-18FF-4FAA-BFC0-36D11BDB367C}|OlympOnlineStore.API\\OlympOnlineStore.API.csproj|solutionrelative:olymponlinestore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E000D30-18FF-4FAA-BFC0-36D11BDB367C}|OlympOnlineStore.API\\OlympOnlineStore.API.csproj|c:\\users\\user\\source\\repos\\olymponlinestore\\olymponlinestore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E000D30-18FF-4FAA-BFC0-36D11BDB367C}|OlympOnlineStore.API\\OlympOnlineStore.API.csproj|solutionrelative:olymponlinestore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 215,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingStatusType.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Bookings\\Enum\\BookingStatusType.cs",
+              "RelativeDocumentMoniker": "OlympOnlineStore.Models\\Bookings\\Enum\\BookingStatusType.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Bookings\\Enum\\BookingStatusType.cs",
+              "RelativeToolTip": "OlympOnlineStore.Models\\Bookings\\Enum\\BookingStatusType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:16:37.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Bookings\\BookingModel.cs",
+              "RelativeDocumentMoniker": "OlympOnlineStore.Models\\Bookings\\BookingModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Bookings\\BookingModel.cs",
+              "RelativeToolTip": "OlympOnlineStore.Models\\Bookings\\BookingModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:13:14.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentStatusType.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Payments\\Enum\\PaymentStatusType.cs",
+              "RelativeDocumentMoniker": "OlympOnlineStore.Models\\Payments\\Enum\\PaymentStatusType.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Payments\\Enum\\PaymentStatusType.cs",
+              "RelativeToolTip": "OlympOnlineStore.Models\\Payments\\Enum\\PaymentStatusType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:09:52.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaymentMethodType.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Payments\\Enum\\PaymentMethodType.cs",
+              "RelativeDocumentMoniker": "OlympOnlineStore.Models\\Payments\\Enum\\PaymentMethodType.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Payments\\Enum\\PaymentMethodType.cs",
+              "RelativeToolTip": "OlympOnlineStore.Models\\Payments\\Enum\\PaymentMethodType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:01:18.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Payments\\PaymentModel.cs",
+              "RelativeDocumentMoniker": "OlympOnlineStore.Models\\Payments\\PaymentModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Payments\\PaymentModel.cs",
+              "RelativeToolTip": "OlympOnlineStore.Models\\Payments\\PaymentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T12:59:22.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransmissionType.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Cars\\Enum\\TransmissionType.cs",
+              "RelativeDocumentMoniker": "OlympOnlineStore.Models\\Cars\\Enum\\TransmissionType.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Cars\\Enum\\TransmissionType.cs",
+              "RelativeToolTip": "OlympOnlineStore.Models\\Cars\\Enum\\TransmissionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T09:55:04.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Cars\\CarModel.cs",
+              "RelativeDocumentMoniker": "OlympOnlineStore.Models\\Cars\\CarModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Cars\\CarModel.cs",
+              "RelativeToolTip": "OlympOnlineStore.Models\\Cars\\CarModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T09:53:28.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRoleType.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Users\\Enum\\UserRoleType.cs",
+              "RelativeDocumentMoniker": "OlympOnlineStore.Models\\Users\\Enum\\UserRoleType.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Users\\Enum\\UserRoleType.cs",
+              "RelativeToolTip": "OlympOnlineStore.Models\\Users\\Enum\\UserRoleType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T09:48:10.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Users\\UserModel.cs",
+              "RelativeDocumentMoniker": "OlympOnlineStore.Models\\Users\\UserModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.Models\\Users\\UserModel.cs",
+              "RelativeToolTip": "OlympOnlineStore.Models\\Users\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T09:43:47.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OlympOnlineStore.API",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.API\\OlympOnlineStore.API.csproj",
+              "RelativeDocumentMoniker": "OlympOnlineStore.API\\OlympOnlineStore.API.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.API\\OlympOnlineStore.API.csproj",
+              "RelativeToolTip": "OlympOnlineStore.API\\OlympOnlineStore.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T09:08:43.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "OlympOnlineStore.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "OlympOnlineStore.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T09:07:30.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.API\\Program.cs",
+              "RelativeDocumentMoniker": "OlympOnlineStore.API\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.API\\Program.cs",
+              "RelativeToolTip": "OlympOnlineStore.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T09:07:19.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.API\\appsettings.json",
+              "RelativeDocumentMoniker": "OlympOnlineStore.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\OlympOnlineStore\\OlympOnlineStore.API\\appsettings.json",
+              "RelativeToolTip": "OlympOnlineStore.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-22T09:06:56.186Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 307,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1566,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7615f12e-922a-545a-b9a0-3305b93d08c0}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1364,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
