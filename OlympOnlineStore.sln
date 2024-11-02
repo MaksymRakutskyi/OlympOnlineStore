@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlympOnlineStore.API", "Oly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlympOnlineStore.Shared", "OlympOnlineStore.Shared\OlympOnlineStore.Shared.csproj", "{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "OlympOnlineStore.Database", "OlympOnlineStore.Database\OlympOnlineStore.Database.sqlproj", "{0A8B9E6A-6B63-4CF2-813C-691E05F2BA7F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +21,6 @@ Global
 		{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE31C5E5-9513-4D7D-BCC1-0D668C7E62B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A8B9E6A-6B63-4CF2-813C-691E05F2BA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A8B9E6A-6B63-4CF2-813C-691E05F2BA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A8B9E6A-6B63-4CF2-813C-691E05F2BA7F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{0A8B9E6A-6B63-4CF2-813C-691E05F2BA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A8B9E6A-6B63-4CF2-813C-691E05F2BA7F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A8B9E6A-6B63-4CF2-813C-691E05F2BA7F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

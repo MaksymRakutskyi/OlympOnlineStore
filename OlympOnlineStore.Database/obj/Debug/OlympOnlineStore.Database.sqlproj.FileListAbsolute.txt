@@ -1,8 +1,0 @@
-C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Database\bin\Debug\OlympOnlineStore.Database.dacpac
-C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Database\obj\Debug\OlympOnlineStore.Database.sqlproj.AssemblyReference.cache
-C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Database\obj\Debug\Model.xml
-C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Database\obj\Debug\refactor.xml
-C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Database\obj\Debug\postdeploy.sql
-C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Database\obj\Debug\predeploy.sql
-C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Database\obj\Debug\OlympOnlineStore.Database.dll
-C:\Users\user\source\repos\OlympOnlineStore\OlympOnlineStore.Database\obj\Debug\OlympOnlineStore.Database.pdb
