@@ -5,7 +5,7 @@ namespace OlympOnlineStore.API.Data.Entities;
 
 public class BookingEntity
 {
-    public Guid BookingId { get; set; }
+    public Guid BookingId { get; set; } = Guid.NewGuid();
     public Guid UserId { get; set; }
     public Guid CarId { get; set; }
     public DateTime StarDate { get; set; }

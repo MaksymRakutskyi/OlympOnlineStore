@@ -5,7 +5,7 @@ namespace OlympOnlineStore.API.Data.Entities;
 
 public class PaymentEntity
 {
-    public Guid PaymentId { get; set; }
+    public Guid PaymentId { get; set; } = Guid.NewGuid();
     public Guid BookingId { get; set; }
     public decimal Amount { get; set; }
     public PaymentMethodType PaymentMethod { get; set; }

@@ -10,10 +10,17 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<OlympOnlineStoreDbContext>(optionsBuilder => 
     optionsBuilder.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-DataHelper.MigrateDatabase(builder.Configuration);
-DataHelper.SeedDatabase(builder.Configuration);
+
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<OlympOnlineStoreDbContext>();
+    dbContext.Database.Migrate();
+    dbContext.Database.EnsureCreated();
+    DataHelper.SeedDatabase(dbContext);
+}
 
 if (app.Environment.IsDevelopment())
 {
