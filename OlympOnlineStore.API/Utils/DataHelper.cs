@@ -10,6 +10,7 @@ public static class DataHelper
     public static void SeedDatabase(OlympOnlineStoreDbContext dbContext)
     {
         SeedUsers(dbContext);
+        dbContext.SaveChanges();
     }
 
     private static void SeedUsers(OlympOnlineStoreDbContext dbContext)

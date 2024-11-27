@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using OlympOnlineStore.API.Data;
 using OlympOnlineStore.API.Data.Entities;
 using OlympOnlineStore.API.Services.Interfaces;
+using OlympOnlineStore.API.Utils;
 
 namespace OlympOnlineStore.API.Services.Implementation;
 
@@ -11,6 +12,12 @@ public class UsersDataService(OlympOnlineStoreDbContext dbContext) : IUsersDataS
     public async Task<UserEntity?> Get(Guid userId)
     {
         return await dbContext.Users.FindAsync(userId);
+    }
+
+    public async Task<UserEntity?> GetByLogin(string login)
+    {
+        return await dbContext.Users.FirstOrDefaultAsync(x =>
+            x.Email == login || x.PhoneNumber == login.ClearPhoneNumber());
     }
 
     public async Task<List<UserEntity>?> GetAll(Expression<Func<UserEntity, bool>>? predicate = null)

@@ -6,7 +6,7 @@ using OlympOnlineStore.API.Services.Interfaces;
 
 namespace OlympOnlineStore.API.Services.Implementation;
 
-public class CarImageDataService(OlympOnlineStoreDbContext dbContext) : ICarImageDataService
+public class CarImagesDataService(OlympOnlineStoreDbContext dbContext) : ICarImagesDataService
 {
     public async Task<CarImageEntity?> Get(Guid carImageId)
     {
