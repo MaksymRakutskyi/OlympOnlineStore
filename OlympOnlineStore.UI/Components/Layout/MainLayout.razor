@@ -1,0 +1,55 @@
+﻿@using System.Globalization
+@inherits LayoutComponentBase
+
+<MudThemeProvider Theme="CustomTheme"/>
+<MudPopoverProvider/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+<MudLayout>
+    
+    <MudAppBar Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@DrawerToggle"/>
+        <MudSpacer/>
+        <MudText Typo="Typo.h5" Class="ml-3">@Localizer["OlympTitle"]</MudText>
+        <MudSpacer/>
+        @* <MudButton Color="Color.Secondary" @onclick="ApplySelectedCulture"> *@
+        @*     @CultureInfo.CurrentUICulture.TwoLetterISOLanguageName *@
+        @* </MudButton> *@
+        <MudMenu Label="@CurrentCulture.TwoLetterISOLanguageName"
+                 Variant="Variant.Text" Color="Color.Secondary" DropShadow="false" 
+                 AnchorOrigin="Origin.BottomRight" TransformOrigin="Origin.TopRight"
+                 Dense="true">
+            @foreach (var culture in SupportedCultures)
+            {
+                <MudMenuItem @onclick="() => ApplySelectedCulture(culture.Name)">
+                    <MudText Align="Align.Center">
+                        @culture.DisplayName.Split(" ").FirstOrDefault()
+                    </MudText>
+                </MudMenuItem>
+            }
+        </MudMenu>
+    </MudAppBar>
+
+    <MudDrawer @bind-Open="IsDrawerOpen" Elevation="2"
+               Variant="DrawerVariant.Responsive"
+               Anchor="Anchor.Start"
+               ClipMode="DrawerClipMode.Never">
+        <MudDrawerHeader>
+            <MudText Typo="Typo.h5" Class="mt-1">Application</MudText>
+        </MudDrawerHeader>
+        <MudDrawerContainer>
+            <NavMenu/>
+        </MudDrawerContainer>
+    </MudDrawer>
+
+    <MudMainContent Class="pa-4 pt-20">
+        @Body
+    </MudMainContent>
+    
+</MudLayout>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>

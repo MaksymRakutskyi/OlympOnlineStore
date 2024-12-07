@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OlympOnlineStore.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b99d8fb890564e9d1157524fe61b7e129af018a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9c9f0ee3cc5ee7e2eb79f2d761037d39431646f")]
 [assembly: System.Reflection.AssemblyProductAttribute("OlympOnlineStore.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OlympOnlineStore.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
