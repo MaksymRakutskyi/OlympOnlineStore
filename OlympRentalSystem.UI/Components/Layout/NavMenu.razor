@@ -1,0 +1,38 @@
+﻿@using Microsoft.Extensions.Localization
+@using OlympRentalSystem.UI.Resources
+@implements IDisposable
+
+@inject NavigationManager NavigationManager
+@inject IStringLocalizer<SharedResources> Localizer
+
+<MudNavMenu>
+    <MudDivider/>
+    <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
+    @* <MudNavLink Href="Catalog" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.CarRental">Catalog</MudNavLink> *@
+    <MudDivider/>
+    <MudNavLink Href="Cars" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.DirectionsCar">
+        @Localizer["Cars"]
+    </MudNavLink>
+    <MudNavLink Href="Bookings" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Bookmarks">
+        @Localizer["Bookings"]
+    </MudNavLink>
+    <MudNavLink Href="Payments" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Payment">
+        @Localizer["Payments"]
+    </MudNavLink>
+    @* <AuthorizeView> *@
+    @*     <Authorized> *@
+    @*         <MudNavLink Href="Account/Manage" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Person">@context.User.Identity?.Name</MudNavLink> *@
+    @*         <form action="Account/Logout" method="post"> *@
+    @*             <AntiforgeryToken/> *@
+    @*             <input type="hidden" name="ReturnUrl" value="@_currentUrl"/> *@
+    @*             <button type="submit" class="mud-nav-link mud-ripple"> *@
+    @*                 <MudIcon Icon="@Icons.Material.Filled.Logout" Color="Color.Info" Class="mr-3"></MudIcon> Logout *@
+    @*             </button> *@
+    @*         </form> *@
+    @*     </Authorized> *@
+    @*     <NotAuthorized> *@
+    @*         <MudNavLink Href="Account/Login" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Password">Login</MudNavLink> *@
+    @*         <MudNavLink Href="Account/Register" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Person">Register</MudNavLink> *@
+    @*     </NotAuthorized> *@
+    @* </AuthorizeView> *@
+</MudNavMenu>

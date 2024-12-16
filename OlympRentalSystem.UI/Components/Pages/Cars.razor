@@ -1,0 +1,68 @@
+@page "/cars"
+@using OlympRentalSystem.UI.Models
+
+
+<PageTitle>@Localizer["Cars"]</PageTitle>
+
+<MudTable @ref="CarTable" T="Car" ServerData="LoadServerData" OnRowClick="OnRowClick" Class="d-flex" ContainerClass="flex-1"
+          Hover="true" Bordered="true" Outlined="false" Striped="true" ReadOnly="true" Style="flex-direction: column;"
+          FixedHeader="true" Height="100%">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">@Localizer["Cars"]</MudText>
+        <MudSpacer/>
+        <MudTextField T="string" ValueChanged="OnSearch" Placeholder="@Localizer["Search"]"
+                      Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" 
+                      IconSize="Size.Medium" Class="mt-0"/>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>
+            <MudTableSortLabel T="Car" SortLabel="Brand">@Localizer["Brand"]</MudTableSortLabel>
+        </MudTh>
+        <MudTh>
+            <MudTableSortLabel T="Car" SortLabel="Model">@Localizer["Model"]</MudTableSortLabel>
+        </MudTh>
+        <MudTh>
+            <MudTableSortLabel T="Car" SortLabel="Description">@Localizer["Description"]</MudTableSortLabel>
+        </MudTh>
+        <MudTh>
+            <MudTableSortLabel T="Car" SortLabel="PricePerDay">@Localizer["PricePerDay"]</MudTableSortLabel>
+        </MudTh>
+        <MudTh>
+            <MudTableSortLabel T="Car" SortLabel="PricePerWeek">@Localizer["PricePerWeek"]</MudTableSortLabel>
+        </MudTh>
+        <MudTh>
+            <MudTableSortLabel T="Car" SortLabel="PricePerMonth">@Localizer["PricePerMonth"]</MudTableSortLabel>
+        </MudTh>
+        <MudTh>
+            <MudTableSortLabel T="Car" SortLabel="Availability">@Localizer["Availability"]</MudTableSortLabel>
+        </MudTh>
+        <MudTh>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" StartIcon="@Icons.Material.Filled.Add" 
+                       OnClick="@(_ => OnAddClick())">
+                @Localizer["Add"]
+            </MudButton>
+        </MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Brand">@context.Brand</MudTd>
+        <MudTd DataLabel="Model">@context.Model</MudTd>
+        <MudTd DataLabel="Year">@context.Description</MudTd>
+        <MudTd DataLabel="PricePerDay">@context.PricePerDay</MudTd>
+        <MudTd DataLabel="PricePerWeek">@context.PricePerWeek</MudTd>
+        <MudTd DataLabel="PricePerMonth">@context.PricePerMonth</MudTd>
+        <MudTd DataLabel="Availability">@context.Availability</MudTd>
+        <MudTd>
+            <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Error" Style="margin: auto;"
+                           OnClick="@(_ => OnDeleteClick(context.CarId))"/>
+        </MudTd>
+    </RowTemplate>
+    <NoRecordsContent>
+        <MudText Style="height: 100%">@Localizer["No matching records found"]</MudText>
+    </NoRecordsContent>
+    <LoadingContent>
+        <MudText>@Localizer["Loading..."]</MudText>
+    </LoadingContent>
+    <PagerContent>
+        <MudTablePager RowsPerPageString="@Localizer["Rows per page:"]"/>
+    </PagerContent>
+</MudTable>

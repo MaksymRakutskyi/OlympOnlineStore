@@ -1,0 +1,23 @@
+@page "/car/edit/{CarId:guid?}"
+
+<PageTitle>@Localizer["Car"]</PageTitle>
+
+<MudForm Model="Car" @ref="Form" Valid="IsValid" Invalid="IsInvalid">
+    
+    <MudPaper Class="pa-4">
+        <MudText Typo="Typo.h5">@(Car.CarId == Guid.Empty ? "Create Car" : "Edit Car")</MudText>
+        <MudSpacer/>
+
+        <MudTextField Label="Brand" For="@(() => Car.Brand)" Required="true"/>
+        <MudTextField Label="Model" For="@(() => Car.Model)" Required="true"/>
+        <MudTextField Label="Description" For="@(() => Car.Description)" Multiline="true" Rows="3"/>
+        <MudNumericField T="decimal?" Label="Price Per Day" For="@(() => Car.PricePerDay)" Adornment="Adornment.Start" AdornmentText="$"/>
+        <MudNumericField T="decimal?" Label="Price Per Week" For="@(() => Car.PricePerWeek)" Adornment="Adornment.Start" AdornmentText="$"/>
+        <MudNumericField T="decimal?" Label="Price Per Month" For="@(() => Car.PricePerMonth)" Adornment="Adornment.Start" AdornmentText="$"/>
+        <MudSwitch Label="Available" For="@(() => Car.Availability)"/>
+
+        <MudSpacer/>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="SaveAction" Disabled="@(Form?.IsValid == true)">@Localizer["Save"]</MudButton>
+        <MudButton Variant="Variant.Outlined" Color="Color.Secondary" OnClick="CancelAction">@Localizer["Cancel"]</MudButton>
+    </MudPaper>
+</MudForm>
